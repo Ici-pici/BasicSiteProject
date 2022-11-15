@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main_bg{
+    background-color: #0d0f3f;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form{
+    width: 1000px;
+}
+
+.form-text{
+    text-align: center;
+    margin: 250px 0 40px 0;
+}
+
+.form-text h1{
+    color: #fff;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+.main-form div input {
+    width: 100%;
+    background: none;
+    border: 1px solid #f77062;;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+
+.main-form div select{
+    width: 104%;
+    background: none;
+    border: 1px solid #f77062;;
+    font-size: 20px;
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+
+.main-form div span{
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+.button2 {
+    display: flex;
+    margin: 327px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    height: 50px;
+    width: 300px;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    color: #fff;
+}
+
+
+.button2:hover {
+    background: #403461;
+    transition: all 0.3s ease;
+}
+
+#submit input:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5);
+    color: #fff;
+}
+
+@media screen and (max-width:985px) {
+    .main-form{
+        text-align: center;
+    }
+    .main_bg {
+        height: 900px;
+    }
+    .button2 {
+        margin: auto;
+    }
+
+    .form-text{
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+}
+
+
+@media screen and (max-width:710px) {
+    .main-form{
+        text-align: center;
+    }
+    .main_bg {
+        height: 1000px;
+    }
+    .form{
+        width: 500px;
+    }
+    .button2 {
+        margin: auto;
+    }
+
+    .form-text{
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+}
