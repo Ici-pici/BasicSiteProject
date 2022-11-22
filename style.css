@@ -207,7 +207,7 @@
     width: auto;
     height: 950px;
     background-color: #0d0f3f;
-    background-image: url("./images/plane.jpg")
+    background-image: url("images/plane.jpg")
 }
 
 .main__container {
@@ -393,7 +393,7 @@
   width: 400px;
   border-radius: 4px;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
-   rgba(17, 17, 17, 0.6) 100%), url("/images/public_planes.jpg");
+   rgba(17, 17, 17, 0.6) 100%), url("images/public_planes.jpg");
    background-size: cover;
    position: relative;
    color: #fff;
@@ -401,7 +401,7 @@
 
 .services__card:nth-child(2) {
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,
-   rgba(17, 17, 17, 0.6) 100%), url("/images/private_planes.jpg");
+   rgba(17, 17, 17, 0.6) 100%), url("images/private_planes.jpg");
 }
 
 .services h2 {
